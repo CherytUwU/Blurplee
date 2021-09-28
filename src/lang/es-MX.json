@@ -1,0 +1,22 @@
+{
+    "lang.name.spanish": "Español",
+    "lang.name.english": "Ingles",
+    "lang.name.japanese": "Japonés",
+
+    "header.home": "Inicio",
+    "header.proyects": "Proyectos",
+    "text.discord": "Discord",
+    "header.langTxt": "Idioma",
+    "header.themeTxt": "Tema",
+    "header.animationsTxt": "Animaciones",
+    "header.transitionsTxt": "Transiciones",
+    
+    "text.helpUs": "Ayudanos",
+    "text.comingSoon": "Muy Pronto",
+
+    "app.welcome": "Bienvenidos a ",
+    "app.branchObjetive": "La Página Que Deseas...",
+
+    "proyects.NotNowMessage": "Aun no tenemos proyectos para mostrarte.",
+    "proyects.finished": "Finalizados"
+}

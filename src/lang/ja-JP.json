@@ -1,0 +1,21 @@
+{
+    "lang.name.spanish": "スペイン語",
+    "lang.name.english": "英語",
+    "lang.name.japanese": "日本",
+
+    "header.home": "始まり",
+    "header.proyects": "プロジェクト",
+    "text.discord": "不和",
+    "header.langTxt": "熟語",
+    "header.themeTxt": "テーマ",
+    "header.animationsTxt": "アニメーション",
+    "header.transitionsTxt": "トランジション",
+    
+    "text.helpUs": "助けて",
+    "text.comingSoon": "近日公開",
+
+    "app.welcome": "ようこそ ",
+    "app.branchObjetive": "あなたが望むページ...",
+
+    "proyects.NotNowMessage": "まだお見せするプロジェクトはありません。"
+}

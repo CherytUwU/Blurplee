@@ -1,0 +1,21 @@
+{
+    "lang.name.spanish": "Spanish",
+    "lang.name.english": "English",
+    "lang.name.japanese": "Japanese",
+
+    "header.home": "Home",
+    "header.proyects": "Proyects",
+    "text.discord": "Discord",
+    "header.langTxt": "Language",
+    "header.themeTxt": "Theme",
+    "header.animationsTxt": "Animations",
+    "header.transitionsTxt": "Transitions",
+    
+    "text.helpUs": "Help Us",
+    "text.comingSoon": "Coming Soon",
+
+    "app.welcome": "Welcome to ",
+    "app.branchObjetive": "The Page You Want ...",
+
+    "proyects.NotNowMessage": "We still don't have projects to show you."
+}

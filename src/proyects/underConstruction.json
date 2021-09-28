@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "logo": "https://i.ibb.co/9cM9RNY/Logo-Normal-Texto-Azul.png",
+        "branch.name": "AoDesu",
+        "branch.description": "AoDesu es una pagina para ver anime online, en HD y subtitulado, sin anuncios a la mejor calidad posible."
+    },
+    {
+        "id": 1,
+        "logo": "https://i.ibb.co/pLmbBdb/icon-original.png",
+        "branch.name": "CherytMusic",
+        "branch.description": "Pagina web para para que disfrutes de tu música favorita totalmente GRATIS."
+    },
+    {
+        "id": 2,
+        "logo": "https://i.ibb.co/C7kn8C1/conqueroricon-Original.png",
+        "branch.name": "Conqueror",
+        "branch.description": "Para todos tus problemas relacionados con el LoL, Nosotros somos tu salvación."
+    },
+    {
+        "id": 3,
+        "logo": "https://i.ibb.co/bLzQ447/libro.png",
+        "branch.name": "Sanctuary",
+        "branch.description": "Web de libros virtuales para que puedas disfrutar de conocimiento gratuito."
+    },
+    {
+        "id": 4,
+        "logo": "https://i.ibb.co/bLzQ447/libro.png",
+        "branch.name": "WikiMeme",
+        "branch.description": "La Wikipedia que necesitaras leer para saber el origen, información y demas datos curiosos de tus memes favoritos."
+    }
+]
