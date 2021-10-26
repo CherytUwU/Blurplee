@@ -3,7 +3,8 @@
         "id": 0,
         "logo": "https://i.ibb.co/9cM9RNY/Logo-Normal-Texto-Azul.png",
         "branch.name": "AoDesu",
-        "branch.description": "AoDesu es una pagina para ver anime online, en HD y subtitulado, sin anuncios a la mejor calidad posible."
+        "branch.description": "AoDesu es una pagina para ver anime online, en HD y subtitulado, sin anuncios a la mejor calidad posible.",
+        "url": "/proyects/ao-desu"
     },
     {
         "id": 1,

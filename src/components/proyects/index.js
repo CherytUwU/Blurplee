@@ -112,7 +112,7 @@ const Proyects = () => {
                             <h3 className="EspecialTxt">{e['branch.name']}</h3>
                             <p>{e['branch.description']}</p>
                           </div>
-                          <Link to={e['branch.name']} className="btnGeneral">Saber Más</Link>
+                          <Link to={e.url} className="btnGeneral">Saber Más</Link>
                         </div>
                       </div>
                     ) }

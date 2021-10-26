@@ -190,8 +190,8 @@ const Header = () => {
                                 <i className="fas fa-caret-down"></i>
                             </Link>
                             <div className="NavExtraLinks" onClick={ToggleMenu}>
-                                <Link to="/">AoDesu</Link>
-                                <Link to="/">CherytMusic</Link>
+                                <Link to="/proyects/ao-desu">AoDesu</Link>
+                                <Link to="/proyects/modaly">Modaly</Link>
                                 <Link to="/">Sanctuary</Link>
                                 <Link to="/">Conqueror</Link>
                                 <Link to="/" style={{borderBottom: 'none'}}>More Soon...</Link>
@@ -237,26 +237,17 @@ const Header = () => {
                     <ul className="LangOptions">
                             <li>
                                 <button onClick={() => lang.LanguageSelector('es-MX')}>
-                                    <FormattedMessage 
-                                        id="lang.name.spanish" 
-                                        defaultMessage="Español"
-                                    />
+                                    Español
                                 </button>
                             </li>
                             <li>
                                 <button onClick={() => lang.LanguageSelector('en-US')}>
-                                    <FormattedMessage 
-                                        id="lang.name.english" 
-                                        defaultMessage="Ingles"
-                                    />
+                                    English
                                 </button>
                             </li>
                             <li>
                                 <button onClick={() => lang.LanguageSelector('ja-JP')}>
-                                    <FormattedMessage 
-                                        id="lang.name.japanese" 
-                                        defaultMessage="Japones"
-                                    />
+                                    日本
                                 </button>
                             </li>
                     </ul>
@@ -286,6 +277,21 @@ const Header = () => {
             </div>
             
             <div className="Noti">
+                <div className="Notification">
+                    <div className="NotiImg">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 2000.000000 2000.000000" preserveAspectRatio="xMidYMid meet">
+                    <g transform="translate(0.000000,2000.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+                    <path d="M6243 17004 l-3743 -1997 0 -5007 0 -5007 3745 -1998 c2419 -1290 3752 -1995 3764 -1992 11 2 1700 901 3755 1997 l3736 1993 0 5007 0 5007 -3743 1997 c-2059 1098 -3750 1996 -3758 1996 -8 0 -1698 -899 -3756 -1996z m1266 -4666 c1361 -727 2482 -1322 2491 -1322 9 0 1130 595 2491 1322 1362 727 2483 1324 2492 1328 16 6 17 -240 17 -3669 l0 -3674 -1243 -662 c-684 -363 -1247 -661 -1250 -661 -4 0 -8 1105 -9 2455 l-3 2455 -1240 -660 c-682 -363 -1247 -660 -1255 -660 -8 0 -573 297 -1255 660 l-1240 660 -3 -2455 c-1 -1350 -5 -2455 -9 -2455 -3 0 -566 298 -1250 661 l-1243 662 0 3674 c0 3429 1 3675 17 3669 9 -4 1130 -601 2492 -1328z"/>
+                    </g>
+                    </svg>
+                    </div>
+                    <div className="NotiTxt">
+                        <div className="NotiTxtInfo">¡Bienvenido a la familia <span className="EspecialTxt">Modaly</span>!</div>
+                        <span className="NotiDate">16 / 10 / 2021</span>
+                        <span className="NotiMoreInfo"><Link>Saber Más</Link></span>
+                    </div>
+                </div>
+
                 <div className="Notification">
                     <div className="NotiImg">
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 2000.000000 2000.000000" preserveAspectRatio="xMidYMid meet">

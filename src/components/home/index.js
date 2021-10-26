@@ -184,8 +184,7 @@ const Home = () => {
                                             <h4>AoDesu <i className="far fa-registered"></i></h4>
                                             <p>AoDesu es un servicio de <span className="EspecialTxt">Anime Gratuito</span> pensado para mejorar la experiencia del usuario en un 110%!</p>
                                             <div className="ProyecsOptions">
-                                                <Link to="/" className="btnGeneral"><i className="fas fa-info-circle"></i> Info</Link>
-                                                <a href="https://cherytuwu.github.io/InstallAoDesu/" target="_blank" rel="noopener noreferrer" className="btnGeneral"><i className="fas fa-external-link-alt"></i> Ir</a>
+                                                <Link to="/proyects/ao-desu" style={{width: '100%'}} className="btnGeneral"><i className="fas fa-info-circle"></i> Info</Link>    
                                             </div>
                                         </div>
                                     </div>
@@ -218,7 +217,7 @@ const Home = () => {
                                         </svg>
                                         </div>
                                         <div className="ProyecsTxt">
-                                            <h4>CherytMusic <i className="far fa-registered"></i></h4>
+                                            <h4>Modaly <i className="far fa-registered"></i></h4>
                                             <p>Disfruta de tu musica favorita <span className="EspecialTxt">Gratis y sin Anuncios</span> a la mejor calidad auditiva posible</p>
                                             <div className="ProyecsOptions">
                                             <Link to="/" style={{width: '100%'}} className="btnGeneral"><i className="fas fa-info-circle"></i> Info</Link>

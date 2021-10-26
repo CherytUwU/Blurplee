@@ -1,0 +1,125 @@
+.banner-proyects{
+    height: 125px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: var(--dark-blue-tertiary);
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -50px;
+    background: var(--dark-blue-primary);
+    border-radius: 50%;
+}
+.logo img{
+    width: 100%;
+}
+.content-proyects{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-top: 5px solid var(--dark-blue-primary);
+    padding: 60px 50px;
+}
+.name-proyects{
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+.name-proyects::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: var(--dark-zero);
+}
+.name-proyects h2{
+    flex: 1;
+    color: var(--dark-blue-primary);
+}
+.what-proyects{
+    max-width: 600px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: var(--light-two);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0, .2);
+}
+.what-proyects:hover{
+    background: var(--light-one);
+}
+.title-what-proyects{
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--branch-font);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.proyects-state{
+    position: absolute;
+    right: 50px;
+    background: var(--light-one);
+    padding: 5px 20px;
+    top: 205px;
+}
+.state-title{
+    color: var(--general-blurple);
+    font-weight: 500;
+    font-family: var(--branch-font);
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0,0,0, .1);
+}
+.state{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.state i{
+    margin-top: 3px;
+}
+.state i.fa-check{
+    color: var(--general-green);
+}
+.state i.fa-spinner{
+    color: var(--general-blurple);
+    animation: Rotation 1s linear infinite;
+}
+@keyframes Rotation {
+    from{
+        transform: rotate(0);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+@media (max-width: 640px) {
+    .proyects-state{
+        top: 70px;
+        right: 10px;
+    }
+}
+@media (max-width: 550px) {
+    .proyects-state{
+        top: inherit;
+        right: inherit;
+        position: relative;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 370px) {
+    .content-proyects{
+        padding: 50px 10px;
+    }
+}
